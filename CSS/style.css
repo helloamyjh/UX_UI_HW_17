@@ -49,15 +49,15 @@ body {
         font-size: 10pt;
         
         border: 1px solid rgb(85, 85, 85);
-        border-radius: ;
+
     }
 
 .footer {
         text-align: right;
         background-color: #ffffff;
         color: white;
-        padding: 20px. 25px;
-        display: inline;
+        padding: 20px 25px;
+
       }
 
 .background {
