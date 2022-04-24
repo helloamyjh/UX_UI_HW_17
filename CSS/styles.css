@@ -16,6 +16,11 @@ div {
 
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 ul {
   display: flex;
   flex-direction: row;
@@ -52,6 +57,10 @@ footer {
   padding: 5px;
   background-color: rgb(109, 109, 109);
   color: white;
-
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+footer a {
+  font-size: small;
+  color: white;
+}
