@@ -1,4 +1,4 @@
-div {
+div.navigation-bar {
   padding: 10px;
   position: absolute;
   top: 0;
@@ -63,4 +63,65 @@ footer {
 footer a {
   font-size: small;
   color: white;
+  padding: 5px 40px;
+
+}
+div.gallery {
+  border:none;
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 10 10px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+div.desc {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: gray;
+}
+
+h2 {
+  background-color: #fee1db;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+  text-align: center;
+  padding: 20px;
 }
